@@ -1,2 +1,0 @@
-Lek	Data ważności	Czy jest na recepte
-Acodin	10.10.2024	TAK
