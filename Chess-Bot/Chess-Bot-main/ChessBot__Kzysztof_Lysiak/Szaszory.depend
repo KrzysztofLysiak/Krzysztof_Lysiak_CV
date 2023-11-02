@@ -1,0 +1,1193 @@
+# depslib dependency file v1.0
+1677508008 source:c:\users\krzys\onedrive\pulpit\szaszory\piaskownica.c
+
+1677589944 source:c:\users\krzys\onedrive\pulpit\szaszory\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1677581983 source:c:\users\krzys\onedrive\pulpit\szaszory\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Naglowek.h"
+
+1677588187 c:\users\krzys\onedrive\pulpit\szaszory\naglowek.h
+	<iostream>
+
+1677585652 c:\users\krzys\onedrive\pulpit\szaszory\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Naglowek.h"
+
+1677581983 c:\users\krzys\onedrive\pulpit\szaszory\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Naglowek.h"
+
+1677667973 source:c:\users\newuser\desktop\chess22\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1677664577 c:\users\newuser\desktop\chess22\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+
+1677763070 c:\users\newuser\desktop\chess22\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1677694396 c:\users\newuser\desktop\chess22\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1677754496 c:\users\newuser\desktop\chess22\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1677694365 source:c:\users\newuser\desktop\chess22\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1677762995 source:c:\users\newuser\desktop\chess22\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"main.hpp"
+
+1677749404 source:c:\users\newuser\desktop\chess22\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1677664577 source:c:\users\newuser\desktop\chess22\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+
+1677694396 source:c:\users\newuser\desktop\chess22\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1677694995 source:c:\users\newuser\desktop\chess22\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1677762590 c:\users\newuser\desktop\chess22\main.hpp
+	"Szachownica.hpp"
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678813665 source:c:\users\newuser\desktop\chess33\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1677762590 c:\users\newuser\desktop\chess33\main.hpp
+	"Szachownica.hpp"
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678814347 c:\users\newuser\desktop\chess33\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678814830 c:\users\newuser\desktop\chess33\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678386625 c:\users\newuser\desktop\chess33\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1678386763 c:\users\newuser\desktop\chess33\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1677928785 c:\users\newuser\desktop\chess33\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1678386746 source:c:\users\newuser\desktop\chess33\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1678814814 source:c:\users\newuser\desktop\chess33\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1678386644 source:c:\users\newuser\desktop\chess33\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1677928904 source:c:\users\newuser\desktop\chess33\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1677928866 source:c:\users\newuser\desktop\chess33\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1677934600 source:c:\users\newuser\desktop\chess33\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1677934740 source:c:\users\newuser\desktop\chess33\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678814555 source:c:\users\newuser\desktop\chess33\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1678871927 source:c:\users\krzys\onedrive\pulpit\chess333\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1678871927 c:\users\krzys\onedrive\pulpit\chess333\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1678880747 source:c:\users\krzys\onedrive\pulpit\chess333\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1678871928 c:\users\krzys\onedrive\pulpit\chess333\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1678886154 c:\users\krzys\onedrive\pulpit\chess333\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678873604 c:\users\krzys\onedrive\pulpit\chess333\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678871929 source:c:\users\krzys\onedrive\pulpit\chess333\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1678889764 source:c:\users\krzys\onedrive\pulpit\chess333\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1678889042 source:c:\users\krzys\onedrive\pulpit\chess333\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1678895052 source:c:\users\newuser\desktop\szachy15.03\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1678895052 c:\users\newuser\desktop\szachy15.03\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1679006605 source:c:\users\newuser\desktop\szachy15.03\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1678895053 c:\users\newuser\desktop\szachy15.03\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1678958929 c:\users\newuser\desktop\szachy15.03\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1678959710 c:\users\newuser\desktop\szachy15.03\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679053727 source:c:\users\newuser\desktop\szachy15.03\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1679060192 source:c:\users\newuser\desktop\szachy15.03\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1679054507 source:c:\users\newuser\desktop\szachy15.03\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1679230903 source:c:\users\krzys\onedrive\pulpit\szachy18.03\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1679138683 c:\users\krzys\onedrive\pulpit\szachy18.03\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1679232288 source:c:\users\krzys\onedrive\pulpit\szachy18.03\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1679138684 c:\users\krzys\onedrive\pulpit\szachy18.03\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1679232836 c:\users\krzys\onedrive\pulpit\szachy18.03\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679219393 c:\users\krzys\onedrive\pulpit\szachy18.03\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679231758 source:c:\users\krzys\onedrive\pulpit\szachy18.03\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1679232836 source:c:\users\krzys\onedrive\pulpit\szachy18.03\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1679233042 source:c:\users\krzys\onedrive\pulpit\szachy18.03\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1679306914 source:c:\users\krzys\onedrive\pulpit\szachy19.03\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1679138683 c:\users\krzys\onedrive\pulpit\szachy19.03\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1679255689 source:c:\users\krzys\onedrive\pulpit\szachy19.03\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1679138684 c:\users\krzys\onedrive\pulpit\szachy19.03\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1679316178 c:\users\krzys\onedrive\pulpit\szachy19.03\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679315216 c:\users\krzys\onedrive\pulpit\szachy19.03\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679309968 source:c:\users\krzys\onedrive\pulpit\szachy19.03\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1679316178 source:c:\users\krzys\onedrive\pulpit\szachy19.03\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1679315706 source:c:\users\krzys\onedrive\pulpit\szachy19.03\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1679306914 source:c:\users\krzys\onedrive\pulpit\szachy20.03\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1679138683 c:\users\krzys\onedrive\pulpit\szachy20.03\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1679474683 source:c:\users\krzys\onedrive\pulpit\szachy20.03\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1679138684 c:\users\krzys\onedrive\pulpit\szachy20.03\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1679486509 c:\users\krzys\onedrive\pulpit\szachy20.03\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679411823 c:\users\krzys\onedrive\pulpit\szachy20.03\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679474979 source:c:\users\krzys\onedrive\pulpit\szachy20.03\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1679486509 source:c:\users\krzys\onedrive\pulpit\szachy20.03\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1679435359 source:c:\users\krzys\onedrive\pulpit\szachy20.03\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1679915394 source:c:\users\krzys\onedrive\pulpit\szachy22.03\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1679915394 c:\users\krzys\onedrive\pulpit\szachy22.03\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1679915394 source:c:\users\krzys\onedrive\pulpit\szachy22.03\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1679915394 c:\users\krzys\onedrive\pulpit\szachy22.03\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1679915394 c:\users\krzys\onedrive\pulpit\szachy22.03\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679915394 c:\users\krzys\onedrive\pulpit\szachy22.03\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1679911928 source:c:\users\krzys\onedrive\pulpit\szachy22.03\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1679915394 source:c:\users\krzys\onedrive\pulpit\szachy22.03\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1679915394 source:c:\users\krzys\onedrive\pulpit\szachy22.03\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1680509219 source:c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1680509219 c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1680473051 c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1680511654 c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680511753 c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680458510 source:c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1680457408 source:c:\users\krzys\onedrive\pulpit\bot_szachowy_krzysztof_lysiak — kopia\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1680509219 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1680509219 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1680473051 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1680511654 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680511753 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680520108 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1680458510 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1680509219 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1680509219 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1680473051 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1680511654 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680511753 c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1680520108 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1680458510 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1680511654 source:c:\users\krzys\onedrive\pulpit\chessbot__kzysztof_lysiak — kopia\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
+1698944056 source:c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\element_listy.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+
+1698944056 c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\element_listy.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+
+1698944056 source:c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\listaa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"listaa.hpp"
+
+1698944056 c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\listaa.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"element_listy.hpp"
+	"Szachownica.hpp"
+
+1698944056 c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\pionki.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1698944056 c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\szachownica.hpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+	"listaa.hpp"
+	"element_listy.hpp"
+
+1698944056 source:c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"element_listy.hpp"
+	"listaa.hpp"
+	"Szachownica.hpp"
+	"Pionki.hpp"
+
+1698944056 source:c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\pionki.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Pionki.hpp"
+
+1698944056 source:c:\users\krzys\onedrive\pulpit\chess-bot-main (1)\chess-bot-main\chessbot__kzysztof_lysiak\szachownica.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<string.h>
+	<cassert>
+	<conio.h>
+	"Szachownica.hpp"
+
