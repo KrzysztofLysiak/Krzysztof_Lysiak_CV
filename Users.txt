@@ -1,0 +1,8 @@
+User_type,Login,Password
+Warehouseman,MaciejKalinowski,1234
+Accountant,AlicjaKaminska,1234
+Normal_user,MarianIzdebski,1234
+Normal_user,MonikaMarciniak,1234
+Normal_user,KasiaMajchrzak,1234
+Apothecary,ZdzislawJakubiak,1234
+Apothecary,k,1234
