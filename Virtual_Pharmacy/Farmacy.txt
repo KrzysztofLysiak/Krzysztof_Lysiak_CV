@@ -1,0 +1,25 @@
+Drug,Expiration date,On prescription,Numbers,Price
+Acodin,2024.10.10,Yes,1,10
+amitryptylina,2034.10.23,Yes,1,11.20
+cyklizyna,2025.10.23,No,7,15.60
+deksametazon,2024.11.22,Yes,45,33
+diazepam,2022.05.20,Yes,34,98
+dokuzynian_sodu,2022.07.05,Yes,6,88.88
+fluoksetyna,2025.04.05,Yes,76,93.50
+haloperydol,2026.03.07,Yes,0,73.21
+hydrobromek_hioscyny,2026.08.07,No,21,38.15
+laktuloza,2026.11.11,Yes,45,15.05
+loperamid,2025.12.12,Yes,4,45
+metoklopramid,2022.03.08,Yes,0,70.34
+midazolam,2020.10.19,Yes,0,17.30
+senes,2024.04.09,Yes,23,56.29
+acetylocysteina,2024.12.18,Yes,23,99.99
+atropina,2024.12.25,Yes,25,47.30
+azotyn_sodu,1926.08.20,No,22,15.67
+blekit_metylenowy,1924.07.03,Yes,45,13.13
+blekit_pruski,1923.07.16,No,12,130
+glukonian_wapnia,1923.03.23,Yes,18,273.30
+nalokson,1923.04.24,Yes,56,138.90
+penicylamina,1925.06.10,Yes,34,76.50
+tiosiarczan_sodu,1927.09.09,Yes,99,89.34
+deferoksamina,1929.10.1,Yes,35,77.16
