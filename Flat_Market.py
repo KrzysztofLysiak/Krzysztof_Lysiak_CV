@@ -131,7 +131,3 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
-
-#print( dataframe.head())
-#print(df_prices.head())
-
