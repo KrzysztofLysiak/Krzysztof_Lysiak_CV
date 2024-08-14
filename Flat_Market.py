@@ -118,7 +118,7 @@ print(df_meters)
 
 
 ##### Ploting
-'''
+
 i=0
 # Tworzymy wykres
 plt.figure(figsize=(8, 6))
@@ -133,5 +133,5 @@ plt.show()
 
 
 #print( dataframe.head())
-#print(df_prices.head())'''
+#print(df_prices.head())
 
