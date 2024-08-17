@@ -138,6 +138,7 @@ int i=0;
 int input;
 plik>>input;
 
+
 //scanf("%d", &input);
 for (i = 0; i < input; i++){
 int b=0;
