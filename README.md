@@ -1,5 +1,13 @@
 # Krzysztof_Lysiak_CV
 
+Housing_market_analyst 
+
+Developed a neural network model to forecast housing market prices using historical economic data. The project involved data collection, model training, and performance evaluation to predict future price trends based on current economic indicators.
+
+Current status: Data collection and neural network design
+
+
+
 ChessBot
 ChessBot is a C++ based chess-playing program that allows users to play against a computer opponent. This project showcases key programming concepts such as inheritance, virtual functions, and method overloading.
 
