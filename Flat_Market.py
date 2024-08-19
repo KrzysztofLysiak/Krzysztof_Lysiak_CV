@@ -18,6 +18,10 @@ df_unemployment = pd.read_csv(r'C:\Users\krzys\Downloads\Unemployment.csv')
 df_inflation = pd.read_csv(r'C:\Users\krzys\Downloads\Inflation.csv')
 
 
+##### Cleaning data
+
+
+
 def cleaning_data_of_another_type(df):
 
   counter = 0
@@ -42,13 +46,6 @@ def cleaning_data_of_another_type(df):
   
   return df
 
-
-
-
-##### Cleaning data
-
-
-
 # Salary
 
 dataframe = pd.DataFrame()
@@ -56,7 +53,7 @@ dataframe = pd.DataFrame()
 def cleaning_data(df):
 
 
-  variable = df.columns[0].replace(';', '').replace('""', '"').replace('[zł]', '').replace("' '", "").replace('ogółem', '').replace(",", '')[10:].split('"')
+  variable = df.columns[0].replace(';', '').replace('""', '"').replace('[zł]', '').replace("[-]", "").replace("' '", "").replace('ogółem', '').replace(",", '')[10:].split('"')
   i = 0
   split_values = []
 
@@ -134,50 +131,32 @@ df_unemployment = cleaning_data_of_another_type(df_unemployment)
 
 ### Inflation
 
+df_inflation = cleaning_data(df_inflation)
+print(df_inflation.head())
 
-
-
-
-
-
-'''
 ### Apartment Area
 rows = []
 counter = 0 
 
 
-
 for i in range(0,3):
 
-  if "," not in str(df_apartment_area.iloc[counter,0])[0]:
-    df_apartment_area.iloc[counter,0] = str(',' + df_apartment_area.iloc[counter,0])
-
-  rows.append(str(str(df_apartment_area.index[counter]) + df_apartment_area.iloc[counter].values).replace("\\","").replace(" ","").replace(")","").replace("'","").replace(" ","").replace("' '","").split(";"))
+  rows.append(((str(df_apartment_area.index[counter]) + str(df_apartment_area.iloc[counter].values)).replace("\\","").replace("]","").replace(" ","").replace(")","").replace("'","").replace(" ","").replace("' '","")).split(";"))
   del rows[counter][:2]
   rows[counter] = list(map(lambda x:x[:-2] if ',' in x  else x,rows[counter]))
   counter = counter + 1
   
-
-
-#rows = [sublist for sublist in [[item for item in sublist if item not in [None, '']] for sublist in rows] if sublist]
-#df_apartment_area = pd.DataFrame(data = rows, columns = columns)
-print(rows[0])  
-
-
-
-
-
-'''
+rows = [sublist for sublist in [[item for item in sublist if item not in [None, '']] for sublist in rows] if sublist]
+df_apartment_area = pd.DataFrame(data = rows, columns = columns)
 
 
 ##### Analysist
 
-'''
+
 
 ##### Ploting
 
 i=0
-# Tworzymy wykres
 plt.figure(figsize=(8, 6))
 for index, row in dataframe.iterrows():
     plt.plot(dataframe.columns, dataframe.iloc[i], marker='o', label=f'Row {index}')
@@ -187,6 +166,3 @@ plt.xticks(rotation=45)
 plt.grid(True)
 plt.legend()
 plt.show()
-
-
-'''
