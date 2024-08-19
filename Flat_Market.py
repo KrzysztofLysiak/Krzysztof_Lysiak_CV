@@ -1,6 +1,9 @@
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
+import math
+import numpy as np
+
 
 
 ##### Reading
@@ -9,9 +12,41 @@ import matplotlib.pyplot as plt
 df = pd.read_csv(r'C:\Users\krzys\Downloads\Wynagrodzenia.csv')
 df_prices = pd.read_csv(r'C:\Users\krzys\Downloads\Ceny_mieszkan.csv')
 df_meters = pd.read_csv(r'C:\Users\krzys\Downloads\Ilosc_sprzedanych_metrow.csv')
+df_avg_prices = pd.read_csv(r'C:\Users\krzys\Downloads\avg_prices.csv')
+df_apartment_area = pd.read_csv(r'C:\Users\krzys\Downloads\Apartment_area.csv')
+df_unemployment = pd.read_csv(r'C:\Users\krzys\Downloads\Unemployment.csv')
+df_inflation = pd.read_csv(r'C:\Users\krzys\Downloads\Inflation.csv')
 
 
-##### Cleaning
+def cleaning_data_of_another_type(df):
+
+  counter = 0
+  rows = []
+
+  for i in range(0,3):
+    rows.append(df.iloc[counter,0].split(";"))
+    del rows[counter][:2]
+    counter = counter + 1
+
+  
+  columns = []
+  
+  rows = [sublist for sublist in [[item for item in sublist if item not in [None, '']] for sublist in rows] if sublist]
+  l = int(math.floor(len(rows[0])/13))+1
+
+  for i in range(1,l):
+    for j in range(2011,2024):
+      columns.append(j)
+
+  df = pd.DataFrame(data = rows, columns = columns)
+  
+  return df
+
+
+
+
+##### Cleaning data
+
 
 
 # Salary
@@ -54,35 +89,13 @@ def cleaning_data(df):
 dataframe = cleaning_data(df)
 
 ### Prices
-rows = []
-columns = ''
-i=0
 
-while i < 3:  
-  j = df_prices.iloc[i,0]
-  rows.append(str(j))
-  rows[i] = rows[i].replace("'","").replace(" ''","").replace(')','').replace(' ','').replace('[','').replace("['nan']","").split(';')
-  del rows[i][0:2]
-  i = i +1
-
-columns = []
-
-for i in range(1,16):
-  for j in range(2010,2023):
-    columns.append(j)
-
-    
-rows = [[item for item in sublist if item] for sublist in rows]
-rows = list(filter(lambda x: x not in ('', None, 0), rows))
-
-
-
-
-df_prices = pd.DataFrame(data = rows, columns = columns)
+df_prices = cleaning_data_of_another_type(df_prices)
 
 ### Meters
 
 rows = []
+columns = []
 counter = 0
 
 for i in df_meters.index:
@@ -97,25 +110,69 @@ for i in df_meters.index:
   counter = counter + 1
 
 
+for i in range(1,16):
+  for j in range(2011,2024):
+    columns.append(j)
+
 rows = list(filter(lambda x: x not in ('', None, 0,'a-z','"',','), rows))
 rows = [[item for item in sublist if item] for sublist in rows]
 rows = [[item.rstrip("',") for item in sublist] for sublist in rows]
 rows = [row[2:] for row in rows]
-print(len(rows[0]))
 
-
-
-#print(j)
 
 df_meters = pd.DataFrame(data = rows, columns = columns)
 
-print(df_meters)
+rows =[]
+
+### Average prices 
+
+df_avg_prices = cleaning_data_of_another_type(df_avg_prices)
+
+### Unemployment
+
+df_unemployment = cleaning_data_of_another_type(df_unemployment)
+
+### Inflation
+
+
+
+
+
+
+
+'''
+### Apartment Area
+rows = []
+counter = 0 
+
+
+
+for i in range(0,3):
+
+  if "," not in str(df_apartment_area.iloc[counter,0])[0]:
+    df_apartment_area.iloc[counter,0] = str(',' + df_apartment_area.iloc[counter,0])
+
+  rows.append(str(str(df_apartment_area.index[counter]) + df_apartment_area.iloc[counter].values).replace("\\","").replace(" ","").replace(")","").replace("'","").replace(" ","").replace("' '","").split(";"))
+  del rows[counter][:2]
+  rows[counter] = list(map(lambda x:x[:-2] if ',' in x  else x,rows[counter]))
+  counter = counter + 1
+  
+
+
+#rows = [sublist for sublist in [[item for item in sublist if item not in [None, '']] for sublist in rows] if sublist]
+#df_apartment_area = pd.DataFrame(data = rows, columns = columns)
+print(rows[0])  
+
+
+
+
+
+'''
+
+
 ##### Analysist
 
-
-
-
-
+'''
 
 ##### Ploting
 
@@ -131,3 +188,5 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
+
+'''
