@@ -3,10 +3,12 @@ import re
 import matplotlib.pyplot as plt
 import math
 import numpy as np
+import tensorflow as tf
+from tensorflow.keras import layers, models
 
 
 
-##### Reading
+##### Reading Poland market ()
 
 
 df = pd.read_csv(r'C:\Users\krzys\Downloads\Wynagrodzenia.csv')
@@ -18,9 +20,19 @@ df_unemployment = pd.read_csv(r'C:\Users\krzys\Downloads\Unemployment.csv')
 df_inflation = pd.read_csv(r'C:\Users\krzys\Downloads\Inflation.csv')
 
 
+##### Reading UK market (this will be AI training data)
+
+df_UK_Prices = pd.read_excel(r'C:\Users\krzys\Downloads\UK House price index (1).xlsx', sheet_name='Average price')
+df_UK_Number_of_Dwellings = pd.read_excel(r'C:\Users\krzys\Downloads\Number_and_density_of_dwellings_by_borough.xlsx', sheet_name='Number of dwellings')
+df_UK_Dwellings_per_hectare = pd.read_excel(r'C:\Users\krzys\Downloads\Number_and_density_of_dwellings_by_borough.xlsx', sheet_name='Dwellings per hectare')
+df_UK_earnings = pd.read_excel(r'c:\Users\krzys\Downloads\earnings-residence-borough.xlsx', sheet_name='Full-time, Weekly')
+df_UK_jobs = pd.read_excel(r'c:\Users\krzys\Downloads\jobs-and-job-density.xlsx', sheet_name='Jobs')
+df_UK_population_estimates = pd.read_excel(r'c:\Users\krzys\Downloads\ons-mye-custom-age-tool-2020.xlsx', sheet_name='Single year of age')
+
 ##### Cleaning data
 
 
+print(df_UK_population_estimates.head(20))
 
 def cleaning_data_of_another_type(df):
 
@@ -132,7 +144,7 @@ df_unemployment = cleaning_data_of_another_type(df_unemployment)
 ### Inflation
 
 df_inflation = cleaning_data(df_inflation)
-print(df_inflation.head())
+
 
 ### Apartment Area
 rows = []
@@ -151,6 +163,13 @@ df_apartment_area = pd.DataFrame(data = rows, columns = columns)
 
 
 ##### Analysist
+
+
+## Random Forest
+
+
+
+## Neutral network
 
 
 
