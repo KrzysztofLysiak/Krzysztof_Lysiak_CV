@@ -3,9 +3,9 @@ import re
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-#import tensorflow as tf
-#from tensorflow.keras import layers, models
-#import tensorflow_decision_forests as tfdf
+import tensorflow as tf
+from tensorflow.keras import layers, models
+import tensorflow_decision_forests as tfdf
 
 
 
@@ -30,6 +30,26 @@ df_UK_Dwellings_per_hectare = pd.read_excel(r'C:\Users\krzys\Downloads\Number_an
 df_UK_earnings = pd.read_excel(r'c:\Users\krzys\Downloads\earnings-residence-borough.xlsx', sheet_name='Full-time, Weekly')
 df_UK_jobs = pd.read_excel(r'c:\Users\krzys\Downloads\jobs-and-job-density.xlsx', sheet_name='Jobs')
 df_UK_population_estimates = pd.read_excel(r'c:\Users\krzys\Downloads\ons-mye-custom-age-tool-2020.xlsx', sheet_name='Single year of age')
+
+def UK_Data_processing(df):
+  counter =0
+  small_counter =0
+
+  for i in df.iloc[:,1]:
+    if pd.isna(i):
+      df.iloc[counter,1] = str('Space' + str(small_counter))
+      small_counter = small_counter + 1
+    counter =counter + 1 
+
+  df = df.fillna(0)
+  df = df.set_index(df.columns[1])
+  df = df.drop(df.columns[0], axis=1)
+
+  End = df.index.get_loc('Westminster')
+  df = df.iloc[:End+1,:].sum()
+  df = df.astype(int)
+
+  return df
 
 
 ##### Cleaning data from Poland
@@ -185,6 +205,31 @@ df_UK_Number_of_Dwellings = df_UK_Number_of_Dwellings.drop(df_UK_Number_of_Dwell
 End = df_UK_Number_of_Dwellings.index.get_loc('Westminster')
 df_UK_Number_of_Dwellings = df_UK_Number_of_Dwellings.iloc[:End+1,:].sum()
 df_UK_Number_of_Dwellings = df_UK_Number_of_Dwellings.astype(int)
+
+
+## Size of the apartment area
+#print(UK_Data_processing(df_UK_Dwellings_per_hectare))
+
+## earnings
+
+datas = []
+for i in range(2001,20024):
+  datas.append(str(i))
+
+df_UK_earnings = df_UK_earnings.iloc[2:,1:].reset_index(drop=True)
+df_UK_earnings = df_UK_earnings.set_index(df_UK_earnings['Area'])
+df_UK_earnings = df_UK_earnings.loc['London']
+mask = df_UK_earnings.iloc[1:].astype(float) > 50
+df_UK_earnings = df_UK_earnings.iloc[1:][mask]
+
+
+## jobs
+
+df_UK_jobs = df_UK_jobs.iloc[1:,1:].reset_index(drop=True)
+df_UK_jobs = df_UK_jobs.set_index('Area',drop=True)
+End = df_UK_jobs.index.get_loc('Westminster')
+df_UK_jobs = df_UK_jobs.iloc[:End+1,:].sum().astype(int)
+
 ##### Analysist
 
 
@@ -197,7 +242,7 @@ df_UK_Number_of_Dwellings = df_UK_Number_of_Dwellings.astype(int)
 
 
 ##### Ploting
-'''
+
 i=0
 plt.figure(figsize=(8, 6))
 for index, row in dataframe.iterrows():
@@ -208,4 +253,3 @@ plt.xticks(rotation=45)
 plt.grid(True)
 plt.legend()
 plt.show()
-'''
