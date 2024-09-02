@@ -5,9 +5,9 @@ import math
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
-import tensorflow_decision_forests as tfdf
+#import tensorflow_decision_forests as tfdf
 
-
+print(tf.__version__)
 
 ##### Reading Poland market ()
 
@@ -245,6 +245,7 @@ df_UK_population_estimates.index.name = None
 
 df_meters = df_meters.map(lambda x: x.split('\\')[0])
 df_meters = df_meters.replace(r'\D', '', regex=True)
+
 ##### Analysist
 
 
@@ -257,7 +258,7 @@ df_meters = df_meters.replace(r'\D', '', regex=True)
 
 
 ##### Ploting
-
+'''
 i=0
 plt.figure(figsize=(8, 6))
 for index, row in dataframe.iterrows():
@@ -268,3 +269,4 @@ plt.xticks(rotation=45)
 plt.grid(True)
 plt.legend()
 plt.show()
+'''
