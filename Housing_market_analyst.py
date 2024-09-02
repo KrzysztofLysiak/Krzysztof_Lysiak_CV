@@ -21,7 +21,7 @@ df_unemployment = pd.read_csv(r'C:\Users\krzys\Downloads\Unemployment.csv')
 df_inflation = pd.read_csv(r'C:\Users\krzys\Downloads\Inflation.csv')
 
 
-##### Reading UK market (this will be AI training data)
+##### Reading UK market (this is AI training data)
 
 
 df_UK_Prices = pd.read_excel(r'C:\Users\krzys\Downloads\UK House price index (1).xlsx', sheet_name='Average price')
@@ -30,6 +30,7 @@ df_UK_Dwellings_per_hectare = pd.read_excel(r'C:\Users\krzys\Downloads\Number_an
 df_UK_earnings = pd.read_excel(r'c:\Users\krzys\Downloads\earnings-residence-borough.xlsx', sheet_name='Full-time, Weekly')
 df_UK_jobs = pd.read_excel(r'c:\Users\krzys\Downloads\jobs-and-job-density.xlsx', sheet_name='Jobs')
 df_UK_population_estimates = pd.read_excel(r'c:\Users\krzys\Downloads\ons-mye-custom-age-tool-2020.xlsx', sheet_name='Single year of age')
+df_UK_interest_rate = pd.read_csv(r'c:\Users\krzys\Downloads\interest_rates.csv')
 
 def UK_Data_processing(df):
   counter =0
@@ -184,7 +185,7 @@ rows = [sublist for sublist in [[item for item in sublist if item not in [None, 
 df_apartment_area = pd.DataFrame(data = rows, columns = columns)
 
 
-#### Processing training data
+###### Processing training data
 
 df_UK_Prices = df_UK_Prices['LONDON']
 
@@ -208,7 +209,7 @@ df_UK_Number_of_Dwellings = df_UK_Number_of_Dwellings.astype(int)
 
 
 ## Size of the apartment area
-#print(UK_Data_processing(df_UK_Dwellings_per_hectare))
+
 
 ## earnings
 
@@ -222,7 +223,6 @@ df_UK_earnings = df_UK_earnings.loc['London']
 mask = df_UK_earnings.iloc[1:].astype(float) > 50
 df_UK_earnings = df_UK_earnings.iloc[1:][mask]
 
-
 ## jobs
 
 df_UK_jobs = df_UK_jobs.iloc[1:,1:].reset_index(drop=True)
@@ -230,6 +230,21 @@ df_UK_jobs = df_UK_jobs.set_index('Area',drop=True)
 End = df_UK_jobs.index.get_loc('Westminster')
 df_UK_jobs = df_UK_jobs.iloc[:End+1,:].sum().astype(int)
 
+## population
+
+df_UK_population_estimates.index = df_UK_population_estimates.iloc[:,1]
+df_UK_population_estimates.columns = df_UK_population_estimates.iloc[1]
+
+df_UK_population_estimates = df_UK_population_estimates.drop(df_UK_population_estimates.columns[0:2], axis=1)
+df_UK_population_estimates = df_UK_population_estimates.drop(df_UK_population_estimates.index[1])
+df_UK_population_estimates.columns.name = None
+df_UK_population_estimates.index.name = None
+
+##
+
+
+df_meters = df_meters.map(lambda x: x.split('\\')[0])
+df_meters = df_meters.replace(r'\D', '', regex=True)
 ##### Analysist
 
 
